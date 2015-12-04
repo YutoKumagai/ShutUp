@@ -12,6 +12,6 @@
 * git checkout -b [自分の名前][issue番号]
 * unity上では新しいSceneを作ってくれ
   + 新しいシーンはmasterSceneをコピペして作る  
-　+ _masterSceneをいじるな_
+  + _masterSceneをいじるな_  
 * 新しいScene上で処理を作成
 * あとはプルリク投げてくれ、そんでもって俺がマージするわ
