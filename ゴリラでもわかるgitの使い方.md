@@ -74,7 +74,7 @@ add . っていうのは変更があった全てのファイルaddするとい�
  - githubでshutupリポジトリへ行く  
  - 上部のタブからpull requestページへ行く   
  - new pull requestを押す  
- - baseをmaster、を自分のブランチにする  
+ - baseをmaster、compareを自分のブランチにする  
  - 好きにコメント書いてcreateする  
  - あとは結果をお待ち下さい  
 
