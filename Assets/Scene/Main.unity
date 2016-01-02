@@ -260,10 +260,10 @@ GameObject:
   - 92: {fileID: 114104157}
   - 124: {fileID: 114104156}
   - 81: {fileID: 114104155}
-  - 114: {fileID: 114104160}
   - 114: {fileID: 114104161}
   - 54: {fileID: 114104162}
   - 114: {fileID: 114104163}
+  - 114: {fileID: 114104160}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -346,13 +346,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 114104154}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1aadcb85ff94c46a4c78dc3be49946, type: 3}
+  m_Script: {fileID: 11500000, guid: 740867743b5304b429eec68290c168ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ball: {fileID: 144780, guid: 9d27d84c0b3d2b744ab28ba5f7b6e6f2, type: 2}
-  syuriken: {fileID: 149522, guid: a41cf98640b715f49b8ad189a6f7f8ef, type: 2}
-  power: 100
-  image: {fileID: 969582211}
 --- !u!114 &114104161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1190,12 +1186,6 @@ RectTransform:
   m_PrefabParentObject: {fileID: 22468368, guid: dba5e6f250bd49e429b5af5de521c318,
     type: 2}
   m_PrefabInternal: {fileID: 145014725}
---- !u!114 &969582211 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11408898, guid: dba5e6f250bd49e429b5af5de521c318,
-    type: 2}
-  m_PrefabInternal: {fileID: 145014725}
-  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 --- !u!1 &1156746691
 GameObject:
   m_ObjectHideFlags: 0

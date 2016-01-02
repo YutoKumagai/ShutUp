@@ -5,9 +5,11 @@ public var ball : GameObject;
 public var syuriken : GameObject;
 public var power : float;
 private var center : Vector3;
-public var image : Image;
+public var image : UnityEngine.UI.Image;
 private var count : int;
 private var hour : int;
+
+private var csScript : myCS;
 
 
 function Start () {
@@ -21,7 +23,7 @@ function Update () {
     if(6 <= hour && hour <18) prefab=ball;
     else prefab =syuriken;
 
-    csScript = this.Getcomponent("Getvol");
+    csScript = this.Getcomponent("GetVol");
 
     if(Input.GetMouseButtonDown(0)){
         count++;
@@ -31,7 +33,7 @@ function Update () {
             var bullet = LoadBullet();
             var ray : Ray = Camera.main.ScreenPointToRay(center);
             var dir : Vector3 =ray.direction.normalized;
-bullet.GetComponent.<Rigidbody>().velocity = dir * power;
+            bullet.GetComponent.<Rigidbody>().velocity = dir * power;
         }
     }
 

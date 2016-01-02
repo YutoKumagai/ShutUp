@@ -6,23 +6,23 @@ using UnityEngine.UI;
 [RequireComponent(typeof(AudioSource))]	//AudioSourceは必須.
 [DisallowMultipleComponent]				//複数アタッチさせない.
 
-public class TextVol : MonoBehaviour
+public class GetVol : MonoBehaviour
 {
     public static float a;
     public Text volText;
 
     void Start()
     {
-        // 空の Audio Sourceを取得
+        // 空の Audio Sourceを取得.
         var audio = GetComponent<AudioSource>();
-        // Audio Source の Audio Clip をマイク入力に設定
-        // 引数は、デバイス名（null ならデフォルト）、ループ、何秒取るか、サンプリング周波数
+        // Audio Source の Audio Clip をマイク入力に設定.
+        // 引数は、デバイス名（null ならデフォルト）、ループ、何秒取るか、サンプリング周波数.
         audio.clip = Microphone.Start(null, false, 10, 44100);
-        // マイクが Ready になるまで待機（一瞬）
+        // マイクが Ready になるまで待機（一瞬）.
         while (Microphone.GetPosition(null) <= 0) { }
 
 
-        // 再生開始（録った先から再生、スピーカーから出力するとハウリングします）
+        // 再生開始（録った先から再生、スピーカーから出力するとハウリングします）.
         //audio.Play();
 
     }
@@ -50,7 +50,7 @@ public class TextVol : MonoBehaviour
     void Update()
     {
         //AudioClip の情報を格納する配列.
-        //256は適当です.少なすぎれば平均的なサンプルデータが得られなくなるかもしれず,
+        //256は適当です.少なすぎれば平均的なサンプルデータが得られなくなるかもしれず.
         //多すぎれば計算量が増えますので良い感じに...
         float[] data = new float[256];
         //最終的に返す音量データ.

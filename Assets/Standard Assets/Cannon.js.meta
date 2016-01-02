@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 5f1aadcb85ff94c46a4c78dc3be49946
-timeCreated: 1451652845
+guid: 740867743b5304b429eec68290c168ee
+timeCreated: 1451746595
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences:
-  - ball: {fileID: 144780, guid: 9d27d84c0b3d2b744ab28ba5f7b6e6f2, type: 2}
-  - syuriken: {fileID: 149522, guid: a41cf98640b715f49b8ad189a6f7f8ef, type: 2}
-  - image: {fileID: 11408898, guid: dba5e6f250bd49e429b5af5de521c318, type: 2}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
