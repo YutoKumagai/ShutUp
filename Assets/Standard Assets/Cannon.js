@@ -5,9 +5,11 @@ public var ball : GameObject;
 public var syuriken : GameObject;
 public var power : float;
 private var center : Vector3;
-public var image : Image;
+public var image : UnityEngine.UI.Image;
 private var count : int;
 private var hour : int;
+
+//private var csScript : GetVol;
 
 
 function Start () {
@@ -21,8 +23,8 @@ function Update () {
     if(6 <= hour && hour <18) prefab=ball;
     else prefab =syuriken;
 
-    csScript = this.Getcomponent("Getvol");
-
+    var csScript = GetComponent("GetVol");
+	
     if(Input.GetMouseButtonDown(0)){
         count++;
         image.transform.localScale = Vector3 ((count%6)*20, 15, 0);

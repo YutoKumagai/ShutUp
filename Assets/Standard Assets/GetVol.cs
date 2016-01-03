@@ -6,7 +6,7 @@ using UnityEngine.UI;
 [RequireComponent(typeof(AudioSource))]	//AudioSourceは必須.
 [DisallowMultipleComponent]				//複数アタッチさせない.
 
-public class TextVol : MonoBehaviour
+public class GetVol : MonoBehaviour
 {
     public static float a;
     public Text volText;

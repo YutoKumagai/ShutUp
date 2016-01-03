@@ -5,7 +5,7 @@ public var ball : GameObject;
 public var syuriken : GameObject;
 public var power : float;
 private var center : Vector3;
-public var image : IMage;
+public var image : UnityEngine.UI.Image;
 private var count : int;
 private var hour : int;
 
@@ -19,7 +19,7 @@ function Start () {
 function Update () {
     hour = System.DateTime.Now.Hour;
 
-    csScript = this.Getcomponent("Getvol");
+    var csScript = GetComponent("Getvol");
 
     if(6 <= hour && hour <18) prefab=ball;
     else prefab =syuriken;
