@@ -39,9 +39,10 @@ function Update () {
     //一定の音量を検出した時、その音量の分パワーゲージを貯める
     if(vol > inputVolumeMin){ 
         if(powerGauge < powerGaugeMax){
-        powerGauge = powerGauge + vol;
+        	powerGauge = powerGauge + vol;
+        }else{
+        	powerGauge = powerGaugeMax;
         }
-
     }
 
     if(powerGauge >= powerGaugePerOneShoot && Input.GetMouseButtonDown(0)){
