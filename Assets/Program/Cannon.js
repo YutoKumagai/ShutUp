@@ -67,6 +67,6 @@ bullet.GetComponent.<Rigidbody>().velocity = dir * power;
         var bullet = GameObject.Instantiate(prefab)as GameObject;
         bullet.transform.parent = transform;
         //bullet.transform.localPosition = Vector3((count%6)*20, 15, 0);
-        //bullet.transform.localPosition = Vector3.zero;
+        bullet.transform.localPosition = Vector3.zero;
         return bullet;
     }
