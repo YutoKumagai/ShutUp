@@ -274,7 +274,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ball: {fileID: 144780, guid: 9d27d84c0b3d2b744ab28ba5f7b6e6f2, type: 2}
-  syuriken: {fileID: 149522, guid: a41cf98640b715f49b8ad189a6f7f8ef, type: 2}
+  syuriken: {fileID: 151976, guid: a41cf98640b715f49b8ad189a6f7f8ef, type: 2}
   power: 100
   image: {fileID: 969582211}
 --- !u!114 &114104161

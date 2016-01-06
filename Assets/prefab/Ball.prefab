@@ -141,13 +141,13 @@ MonoBehaviour:
   destroyTime: 3
   useWorldSpace: 1
   direction: {x: 0, y: 0, z: 0}
-  fireballAMaterial: {fileID: 0}
-  fireballBMaterial: {fileID: 0}
-  smokeAMaterial: {fileID: 0}
-  smokeBMaterial: {fileID: 0}
-  shockwaveMaterial: {fileID: 0}
-  sparksMaterial: {fileID: 0}
-  glowMaterial: {fileID: 0}
+  fireballAMaterial: {fileID: 2100000, guid: 3049dffabc5225d40b27675901977fdd, type: 2}
+  fireballBMaterial: {fileID: 2100000, guid: 02a46fb295082ed488cab61782ddc01f, type: 2}
+  smokeAMaterial: {fileID: 2100000, guid: f892253ab15f74115b6d10bd736b2e29, type: 2}
+  smokeBMaterial: {fileID: 2100000, guid: 36aa334bd0865ca459c9b3dfbbaf7198, type: 2}
+  shockwaveMaterial: {fileID: 2100000, guid: 21588279b895eef48a0448f7f2519813, type: 2}
+  sparksMaterial: {fileID: 2100000, guid: 35c8aea4fddc3f842bd829a8fd3d7e1c, type: 2}
+  glowMaterial: {fileID: 2100000, guid: b4d8055067ce04d4c98367d69c10b358, type: 2}
   heatwaveMaterial: {fileID: 0}
   autoCreateFireball: 1
   autoCreateSparks: 0
@@ -306,6 +306,34 @@ Prefab:
       propertyPath: m_ReflectionProbeUsage
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: fireballAMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 3049dffabc5225d40b27675901977fdd, type: 2}
+    - target: {fileID: 0}
+      propertyPath: fireballBMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 02a46fb295082ed488cab61782ddc01f, type: 2}
+    - target: {fileID: 0}
+      propertyPath: smokeAMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: f892253ab15f74115b6d10bd736b2e29, type: 2}
+    - target: {fileID: 0}
+      propertyPath: smokeBMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 36aa334bd0865ca459c9b3dfbbaf7198, type: 2}
+    - target: {fileID: 0}
+      propertyPath: shockwaveMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 21588279b895eef48a0448f7f2519813, type: 2}
+    - target: {fileID: 0}
+      propertyPath: sparksMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 35c8aea4fddc3f842bd829a8fd3d7e1c, type: 2}
+    - target: {fileID: 0}
+      propertyPath: glowMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: b4d8055067ce04d4c98367d69c10b358, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 144780}
