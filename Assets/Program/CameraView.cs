@@ -24,7 +24,7 @@ public class CameraView : MonoBehaviour
 
         if (x > 180) x = x - 360;
         x = x + Input.GetAxis("Mouse X") * 5;
-        // x = Mathf.Clamp(x + Input.GetAxis("Mouse X") * 5, -90, 90);
+        x = Mathf.Clamp(x + Input.GetAxis("Mouse X") * 5, -100, 100);
         if (x < 0) x = x + 360;
 
         if (y > 180) y = y - 360;
