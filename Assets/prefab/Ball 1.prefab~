@@ -186,6 +186,7 @@ MonoBehaviour:
   timeScale: 1
   startDetail: 1
   detail: 1
+<<<<<<< HEAD
   startColor: {r: 1, g: 1, b: 1, a: 1}
   color: {r: 1, g: 1, b: 1, a: 1}
   startLocalPosition: {x: 0, y: 0, z: 0}
@@ -216,6 +217,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxFallDistance: -10
 --- !u!135 &13568696
+=======
   upwardsBias: 0
   destroyTime: 3
   useWorldSpace: 1
@@ -237,6 +239,7 @@ MonoBehaviour:
   autoCreateForce: 1
   autoCreateHeatwave: 0
 --- !u!135 &13503724
+>>>>>>> master
 SphereCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
