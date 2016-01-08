@@ -3,8 +3,8 @@
 
 ### 大声を出してストレスを解消するためのゲームです
 #### ダウンロードはこちらから
-* windows: https://drive.google.com/open?id=0B1B0TQTV9TyPRWdyZmZDTjd4aHc
-* mac: https://drive.google.com/open?id=0B1B0TQTV9TyPUUFvdkVXMzVudVU
+* windows: https://drive.google.com/open?id=0B1B0TQTV9TyPUEVUZmszVDIwbW8
+* mac: https://drive.google.com/open?id=0B1B0TQTV9TyPaHVrNFpLbmJ4UUk
 
 #### ゲーム内容
 * 敵がこちらに向かってくるので、ボムで撃退してください！
