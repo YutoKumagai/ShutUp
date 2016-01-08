@@ -9,6 +9,8 @@ TagManager:
   - FindZone
   - Bomb
   - Hiyoko
+  - SelectStage1
+  - SelectStage2
   - SelectStage
   layers:
   - Default
