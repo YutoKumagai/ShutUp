@@ -8,18 +8,13 @@ private var center : Vector3;
 public var image : UnityEngine.UI.Image;
 private var powerGauge : float;
 private var hour : int;
-
 private var vol : float;
-
 private var csScript : GetVol;
-
-//定数-----------------------------------------------------------
 private var inputVolumeMin : float = 0.1;
 private var powerGaugeMax : int = 20;
 private var powerGaugePerOneShoot : int = 4;
 
 function Start () {
-    // 画面中央の座標を取得。
     center = Vector3(Screen.width/2,Screen.height/2, 10);
     powerGauge=0;
 }

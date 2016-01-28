@@ -15,7 +15,6 @@ function Start () {
 }
 
 function Update () {
-
     time+=Time.deltaTime;
     if(sumtime==10)  interval=2;
     if(sumtime==20)  interval=1;

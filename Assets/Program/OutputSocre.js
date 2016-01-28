@@ -17,12 +17,10 @@ function Start () {
     FinalText.text = "最終スコア：" + FinalScore.ToString();
     var output = "";
 
-    //write
     var sw:StreamWriter;
     var sr:StreamReader;
 
     for(var n =0; n<5; n++) score[n] = "0";
-    //sr = new StreamReader(Application.dataPath + "/score.txt");
     if(SceneName=="Main") sr = new StreamReader("stage1.txt");
     else if(SceneName=="Main1") sr = new StreamReader("stage2.txt");
     var txt = sr.ReadToEnd();
@@ -37,7 +35,6 @@ function Start () {
             break;
         }    
     }
-    //  sw = new StreamWriter(Application.dataPath + "/score.txt", false);
     if(SceneName=="Main")  sw = new StreamWriter("stage1.txt", false);
     else if(SceneName=="Main1") sw = new StreamWriter("stage2.txt", false);
     for(var k=0;k<5;k++) output = output+score[k]+",";
