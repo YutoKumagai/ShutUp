@@ -2,25 +2,20 @@
 using System.Collections;
 using UnityEngine.UI;
 
-public class CameraView : MonoBehaviour
-{
+public class CameraView : MonoBehaviour{
     public float x;
     public float y;
     public float z;
     public int viewpoint;
-
-    // Use this for initialization
-    void Start()
-    {
+    
+    void Start(){
         viewpoint = ChangeView.ViewFlagPoint();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
+    void Update()    {
         x = transform.eulerAngles.y;
         y = transform.eulerAngles.x;
-        z = 0;// transform.eulerAngles.z;
+        z = 0;
 
         if (x > 180) x = x - 360;
         x = x + Input.GetAxis("Mouse X") * 5;
